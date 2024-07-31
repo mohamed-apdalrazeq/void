@@ -1,11 +1,12 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-  {"",  "clock"    , 60 ,  1  },
-  {"",  "cpu"      , 1  ,  16 }, 
-  {"VOL",  "voulum"   , 0  ,  30 },
-  {"",  "internet" , 5  ,  4  },
-  {"",  "battery"  , 5  ,  4  },
+ 	 {"",  "clock"    , 60 ,  1  },
+	 {"VOL",  "voulum"   , 0  ,  30 }, 
+  	 {"",  "cpu"      , 1  ,  16 }, 
+ 	 {"",  "internet" , 5  ,  4  },
+ 	 {"BAT:",  "battery"  , 5  ,  4  },
+	 {"",  "ffmpeg.sh"    , 0 ,  22  },
 
 };
 
