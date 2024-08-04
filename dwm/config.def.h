@@ -26,9 +26,10 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-/* class      instance    title       tags mask     iscentered   isfloating   monitor */
-  { NULL,     NULL,       NULL,       0,            0,           0,          -1 },
- // { "mpv",       NULL,       NULL,       0,            1,           1,            }, // mpv في المنتصف وعائم
+/* class              instance    title       tags mask     iscentered   isfloating   monitor */
+  { NULL,             NULL,       NULL,       0,            0,           0,          -1 },
+  { "centered-term",  NULL,        NULL,       0,            1,           1,          -1 },
+//  { "mpv",       NULL,       NULL,       0,            1,           1,            }, // mpv في المنتصف وعائم
 };	
 	
 
