@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font =  {"Cousine Nerd Font:size=11", "Noto Color Emoji:size=11"};
+static char *font =  {"Cousine Nerd Font:size=11" ,"Noto Color Emoji:size=11"};
 static int borderpx = 10;
 
 /*
