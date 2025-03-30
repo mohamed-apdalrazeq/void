@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font =  {"Cousine Nerd Font:size=11" ,"Noto Color Emoji:size=11"};
+static char *font = "Cousine Nerd Font:style=Bold:size=11";
 static int borderpx = 10;
 
 /*
@@ -186,7 +186,6 @@ static MouseShortcut mshortcuts[] = {
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
-
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
@@ -208,6 +207,9 @@ static Shortcut shortcuts[] = {
 
 
 };
+
+
+
 
 /*
  * Special keys (change & recompile st.info accordingly)
